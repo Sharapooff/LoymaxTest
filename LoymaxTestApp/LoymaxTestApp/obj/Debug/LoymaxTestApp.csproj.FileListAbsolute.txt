@@ -1,0 +1,8 @@
+D:\GIT\LoymaxTestApp\LoymaxTestApp\bin\Debug\LoymaxTestApp.exe.config
+D:\GIT\LoymaxTestApp\LoymaxTestApp\bin\Debug\LoymaxTestApp.exe
+D:\GIT\LoymaxTestApp\LoymaxTestApp\bin\Debug\LoymaxTestApp.pdb
+D:\GIT\LoymaxTestApp\LoymaxTestApp\obj\Debug\LoymaxTestApp.csproj.AssemblyReference.cache
+D:\GIT\LoymaxTestApp\LoymaxTestApp\obj\Debug\LoymaxTestApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\LoymaxTestApp\LoymaxTestApp\obj\Debug\LoymaxTestApp.csproj.CoreCompileInputs.cache
+D:\GIT\LoymaxTestApp\LoymaxTestApp\obj\Debug\LoymaxTestApp.exe
+D:\GIT\LoymaxTestApp\LoymaxTestApp\obj\Debug\LoymaxTestApp.pdb
