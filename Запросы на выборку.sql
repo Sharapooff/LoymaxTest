@@ -11,9 +11,14 @@
   from [LoymaxTestDb].[dbo].[Books]
   group by [YearOfPublishing]
 --Название книг автора, книг которого в библиотеке представлено больше всего
-  select Sum([Count]) as [COUNT]
+  select b.Name
+  from [LoymaxTestDb].[dbo].[Books] as b
+  join [LoymaxTestDb].[dbo].[AuthorsBooks] as ab on ab.BooksId = b.Id
+  join [LoymaxTestDb].[dbo].[Authors] as a on a.Id = ab.AuthorsId
+  where a.Id = ()
+
+  select a.Id, count(b.Id)
   from [LoymaxTestDb].[dbo].[Books] as b, Authors as a, AuthorsBooks as ab --or join
   where a.Id = ab.AuthorsId and b.Id = ab.BooksId and
-  [COUNT] >6
   group by a.Id    
   order by [Count] desc
